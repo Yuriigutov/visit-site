@@ -1,0 +1,156 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: url(./img/back\ gray.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+h3 {
+  font-weight: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 800px;
+  min-height: 900px;
+  border: 8px solid white;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  height: 150px;
+}
+
+.title-block {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  background-image: url(./img/node-js-hexagon-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.title-block::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.title-h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.userpic {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  background-image: url(./img/i\ am.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav ul {
+  display: flex;
+  background: grey;
+  margin-top: 5px;
+}
+
+.nav li a {
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(64, 67, 69);
+  font-weight: bold;
+  border-right: 1px solid rgb(20, 19, 19);
+  transition: 2s;
+  color: #fff;
+}
+
+.nav li a:hover {
+  background-color: rgb(101, 100, 100);
+}
+
+.content-wraper {
+  display: flex;
+}
+
+.content {
+  width: 70%;
+  padding: 20px;
+}
+
+.skils {
+  /* border: 1px solid red; */
+  padding: 20px;
+  width: 30%;
+}
+
+.ul-skils li {
+  padding: 10px 0;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+}
+
+.ul-skils li:hover {
+  transform: translateX(10px);
+}
+
+.wraper-about {
+  display: flex;
+}
+
+.text {
+  width: 60%;
+  padding: 20px;
+}
+
+.photo {
+  width: 40%;
+  background-image: url(./img/about\ me.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p-text {
+  line-height: 20px;
+}
+
+.number {
+  padding: 20px;
+}
+
+.ul-number {
+  line-height: 30px;
+}
+
+.ul-number li {
+  border-bottom: 2px solid rgb(205, 203, 203);
+}
+
+.footer {
+  background-color: grey;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

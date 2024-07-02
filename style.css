@@ -60,7 +60,7 @@ h3 {
   display: flex;
   width: 20%;
   height: 100%;
-  background-image: url(./img/i\ am.jpg);
+  background-image: url(./img/myphoto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -124,7 +124,7 @@ h3 {
 
 .photo {
   width: 40%;
-  background-image: url(./img/about\ me.jpg);
+  background-image: url(./img/aboutmenew.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
